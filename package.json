@@ -1,0 +1,24 @@
+{
+  "name": "SpaceInvader du pauvre",
+  "displayName": "SpaceInvader du pauvre",
+  "version": "1.0.0",
+  "description": "Simple jeu pour le projet de js en IHM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Des gitans",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cordova-browser": "^5.0.3",
+    "cordova-plugin-whitelist": "^1.3.3"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    },
+    "platforms": [
+      "browser"
+    ]
+  }
+}
